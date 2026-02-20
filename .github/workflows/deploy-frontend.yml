@@ -29,8 +29,6 @@ jobs:
           rm -rf docs
           mkdir -p docs
           cp -r frontend/dist/* docs/
-          # Or if your frontend uses 'build' instead of 'dist':
-          # cp -r frontend/build/* docs/
       
       - name: Commit and push docs
         run: |
